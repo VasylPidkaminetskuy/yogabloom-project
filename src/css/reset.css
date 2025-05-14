@@ -6,6 +6,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 p:last-child {
@@ -24,7 +25,15 @@ a {
 }
 
 button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  display: block;
   cursor: pointer;
+}
+
+input {
+  font-family: inherit;
 }
 
 img {
