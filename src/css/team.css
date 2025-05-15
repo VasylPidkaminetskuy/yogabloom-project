@@ -3,6 +3,10 @@
   background-color: #f2fafa;
 }
 
+.container.team {
+  padding: 64px 16px;
+}
+
 .team-title-wrap {
   display: flex;
   flex-direction: column;
@@ -31,7 +35,6 @@
   font-weight: 400;
   line-height: 1.6;
   text-align: center;
-  margin-bottom: 48px;
 }
 
 .team-cont {
@@ -40,11 +43,12 @@
   align-items: center;
   width: 343px;
   gap: 48px;
+  margin-top: 48px;
 }
 
 .team-photo {
-  max-width: 343px;
-  margin-bottom: 20px;
+  max-width: 343px; /*?*/
+  margin-bottom: 20px; /*не працює*/
 }
 
 .team-name-cont {
@@ -78,4 +82,11 @@
   display: flex;
   justify-content: center;
   gap: 14px;
+}
+
+.socials-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  padding: 5px;
 }
