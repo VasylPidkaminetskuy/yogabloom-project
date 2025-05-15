@@ -1,0 +1,81 @@
+.section-our-team {
+  width: 100%;
+  background-color: #f2fafa;
+}
+
+.team-title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 343px;
+}
+
+.meet {
+  font-weight: 600;
+
+  line-height: 1.5; /**/
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-text {
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.team-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 343px;
+  gap: 48px;
+}
+
+.team-photo {
+  max-width: 343px;
+  margin-bottom: 20px;
+}
+
+.team-name-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 343px;
+}
+
+.team-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.team-prof,
+.team-exp {
+  font-weight: 400;
+
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.team-exp {
+  margin-bottom: 20px;
+}
+
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
