@@ -1,0 +1,87 @@
+
+
+.section-pricing {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.section-pricing-text {
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.section-pricing-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-pricing-text span {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.section-pricing-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+
+}
+
+.section-pricing-item {
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 343px;
+    background-color: #dfebeb;
+}
+
+.pricing-item-title {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.pricing-item-text {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.pricing-package-list {
+    margin-bottom: 32px;
+}
+
+.pricing-package-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.pricing-package-text {
+    font-weight: 400;
+}
+
+.pricing-package-btn {
+    width: 100%;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    height: 46px;
+    background-color: #c2d9fc;
+    font-weight: 500;
+}
