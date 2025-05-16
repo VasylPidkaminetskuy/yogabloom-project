@@ -7,6 +7,7 @@ a {
     text-decoration: none;
 }
 
+/* ====== Base: Mobile First (375px) ====== */
 body {
     background-color: #f2fafa;
     font-family: 'Cabin', sans-serif;
@@ -15,14 +16,12 @@ body {
     color: #0d0b0a;
 }
 
-/* Контейнер */
 .container {
-    padding: 64px 32px;
+    padding: 64px 16px;
     max-width: 375px;
     margin: 0 auto;
 }
 
-/* Заголовок блока */
 .testi-heading {
     list-style: none;
     padding: 0;
@@ -31,33 +30,30 @@ body {
 }
 
 .testi-monials {
-    font-size: 52px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.01em;
     color: #0d0b0a;
-    margin-bottom: 8px;
-    font-family: 'Cabin', sans-serif;
+    margin-bottom: 12px;
 }
 
 .testi-happy {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: #0d0b0a;
     margin: 0;
     text-align: center;
-    font-family: 'Sarabun', sans-serif;
 }
 
-/* Секция отзывов */
 .testi-section {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
 }
 
-/* Карточка отзыва */
 .testi-section-donna,
 .testi-section-sophie,
 .testi-section-rachel,
@@ -68,16 +64,13 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Текст отзыва */
 .testi-sens {
     font-size: 14px;
     line-height: 1.6;
     color: #333;
     margin-bottom: 16px;
-    text-align: left;
 }
 
-/* Блок автора */
 .testi-item {
     display: flex;
     align-items: center;
@@ -87,7 +80,6 @@ body {
     margin: 0;
 }
 
-/* Аватар */
 .testi-icon img {
     width: 48px;
     height: 48px;
@@ -95,16 +87,71 @@ body {
     object-fit: cover;
 }
 
-/* Имя */
 .testi-name p {
     font-weight: 600;
     margin: 0;
     font-size: 14px;
 }
 
-/* Должность */
 .testi-work p {
     font-size: 12px;
     color: #888;
     margin: 0;
+}
+
+/* ====== Tablet (≥768px) ====== */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 80px 32px;
+    }
+
+    .testi-monials {
+        font-size: 44px;
+    }
+
+    .testi-happy {
+        font-size: 18px;
+    }
+
+    .testi-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .testi-section-donna,
+    .testi-section-sophie,
+    .testi-section-rachel,
+    .testi-section-emma {
+        flex: 1 1 calc(50% - 12px);
+    }
+}
+
+/* ====== Desktop (≥1440px) ====== */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1158px;
+        padding: 100px 0;
+    }
+
+    .testi-monials {
+        font-size: 52px;
+    }
+
+    .testi-happy {
+        font-size: 20px;
+    }
+
+    .testi-section {
+        gap: 24px;
+    }
+
+    .testi-section-donna,
+    .testi-section-sophie,
+    .testi-section-rachel,
+    .testi-section-emma {
+        flex: 1 1 calc(25% - 18px);
+    }
 }
