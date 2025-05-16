@@ -6,3 +6,105 @@ ol {
 a {
     text-decoration: none;
 }
+
+body {
+    background-color: #f2fafa;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0d0b0a;
+}
+
+/* Контейнер */
+.container {
+    padding: 64px 32px;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+/* Заголовок блока */
+.testi-heading {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.testi-monials {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+    margin-bottom: 8px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.testi-happy {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0d0b0a;
+    margin: 0;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* Секция отзывов */
+.testi-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Карточка отзыва */
+.testi-section-donna,
+.testi-section-sophie,
+.testi-section-rachel,
+.testi-section-emma {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Текст отзыва */
+.testi-sens {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+/* Блок автора */
+.testi-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Аватар */
+.testi-icon img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Имя */
+.testi-name p {
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Должность */
+.testi-work p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
