@@ -11,7 +11,6 @@
 }
 
 .yoga-classes-title-text {
-  font-family: 'Sarabun', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -30,7 +29,6 @@
 }
 
 .yoga-classes-text {
-  font-family: 'Sarabun', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -49,7 +47,6 @@
 }
 
 .yoga-classes-images-title {
-  font-family: 'Cabin', sans-serif;
   font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0.01em;
@@ -59,7 +56,6 @@
 }
 
 .yoga-classes-images-text {
-  font-family: 'Sarabun', sans-serif;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -72,7 +68,6 @@
   width: 343px;
   height: 46px;
   background-color: #c2d9fc;
-  font-family: 'Sarabun', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
