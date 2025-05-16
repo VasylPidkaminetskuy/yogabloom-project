@@ -1,13 +1,12 @@
 .yoga-classes {
-  /* margin: 112px 0px 112px 0px; */
-  padding: 64px 0px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   background-color: #dfebeb;
 }
 
 .yoga-classes-box-text {
   max-width: 343px;
   margin: 0 auto;
-  /* margin-bottom: 40px; */
   margin-bottom: 48px;
 }
 
@@ -17,56 +16,44 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  /* margin-bottom: 16px; */
   margin-bottom: 12px;
 }
 
 .yoga-classes-title {
   font-family: 'Cabin', sans-serif;
-  /* font-size: 52px; */
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
-  /* margin-bottom: 24px; */
   margin-bottom: 20px;
   font-weight: normal;
 }
 
 .yoga-classes-text {
   font-family: 'Sarabun', sans-serif;
-  /* font-size: 18px; */
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
 }
 
-.yoga-classes-box-images {
-  /* margin-bottom: 40px; */
-  margin-bottom: 48px;
-}
-
 .yoga-classes-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
   gap: 48px;
+  margin-bottom: 48px;
 }
 
 .yoga-classes-images {
   border-radius: 16px;
-  /* margin-bottom: 32px; */
   margin-bottom: 24px;
 }
 
 .yoga-classes-images-title {
   font-family: 'Cabin', sans-serif;
-  /* font-size: 36px; */
   font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0.01em;
   text-align: center;
-  /* margin-bottom: 24px; */
   margin-bottom: 20px;
   font-weight: normal;
 }
@@ -82,7 +69,6 @@
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
-  /* min-width: 110px; */
   width: 343px;
   height: 46px;
   background-color: #c2d9fc;
@@ -104,7 +90,8 @@
   }
 
   .yoga-classes {
-    padding: 40px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #f2fafa;
   }
 
@@ -129,12 +116,9 @@
     font-size: 18px;
   }
 
-  .yoga-classes-box-images {
-    margin-bottom: 61px;
-  }
-
   .yoga-classes-list {
     gap: 27px 24px;
+    margin-bottom: 61px;
   }
 
   .yoga-classes-item {
@@ -173,7 +157,8 @@
   }
 
   .yoga-classes {
-    padding: 112px 0px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-color: #f2fafa;
   }
 
@@ -195,13 +180,10 @@
     font-size: 18px;
   }
 
-  .yoga-classes-box-images {
-    margin-bottom: 40px;
-  }
-
   .yoga-classes-list {
     flex-wrap: nowrap;
     gap: 24px;
+    margin-bottom: 40px;
   }
 
   .yoga-classes-item {
