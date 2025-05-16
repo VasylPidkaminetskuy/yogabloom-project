@@ -4,6 +4,9 @@
 }
 
 .container.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 64px 16px;
 }
 
@@ -11,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 343px;
+  max-width: 343px;
 }
 
 .meet {
@@ -39,21 +42,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 343px;
+  max-width: 343px;
   gap: 48px;
   margin-top: 48px;
 }
 
 .team-photo {
-  max-width: 343px; /*?*/
-  margin-bottom: 20px; /*не працює*/
+  max-width: 343px;
+  margin-bottom: 20px;
 }
 
 .team-name-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 343px;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -71,7 +74,7 @@
 }
 
 .team-exp {
-  margin-bottom: 20px; /*не працює*/
+  margin-bottom: 20px;
 }
 
 .team-social {
@@ -81,13 +84,36 @@
   margin-top: 20px;
 }
 
+.socials-link {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
 @media screen and (min-width: 768px) {
+  .section-our-team {
+    background-color: #f2fafa;
+  }
+
   .container.team {
     padding: 40px 32px 0;
   }
 
   .team-title-wrap {
-    width: 768px;
+    max-width: 768px;
   }
 
   .meet {
@@ -107,18 +133,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 704px;
+    justify-content: center;
+    max-width: 704px;
     gap: 24px;
     margin-top: 48px;
   }
 
+  .team-item {
+    width: calc((704px - 24px) / 2);
+  }
+
   .team-photo {
-    max-width: 340px; /*?*/
-    margin-bottom: 20px; /*не працює*/
+    max-width: 340px;
   }
 
   .team-name-cont {
-    width: 340px;
     margin-top: 24px;
   }
 
@@ -133,5 +162,21 @@
 
   .team-social {
     margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .container.team {
+    padding: 112px 64px;
+  }
+
+  .team-cont {
+    max-width: 1312px;
+    gap: 67px 24px;
+    margin-top: 40px;
+  }
+
+  .team-item {
+    width: calc((1312px - 48px) / 3);
   }
 }
