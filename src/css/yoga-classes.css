@@ -4,12 +4,6 @@
   background-color: #dfebeb;
 }
 
-.yoga-classes-box-text {
-  max-width: 343px;
-  margin: 0 auto;
-  margin-bottom: 48px;
-}
-
 .yoga-classes-title-text {
   font-weight: 600;
   font-size: 16px;
@@ -25,13 +19,15 @@
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 20px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .yoga-classes-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  margin-bottom: 48px;
 }
 
 .yoga-classes-list {
@@ -52,20 +48,22 @@
   letter-spacing: 0.01em;
   text-align: center;
   margin-bottom: 20px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .yoga-classes-images-text {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  font-weight: 400;
 }
 
 .yoga-classes-button {
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 24px;
-  width: 343px;
+  max-width: 343px;
+  width: 100%;
   height: 46px;
   background-color: #c2d9fc;
   font-weight: 500;
@@ -90,11 +88,6 @@
     background-color: #f2fafa;
   }
 
-  .yoga-classes-box-text {
-    max-width: 704px;
-    margin-bottom: 40px;
-  }
-
   .yoga-classes-title-text {
     margin-bottom: 16px;
   }
@@ -109,15 +102,16 @@
 
   .yoga-classes-text {
     font-size: 18px;
+    margin-bottom: 40px;
   }
 
   .yoga-classes-list {
-    gap: 27px 24px;
     margin-bottom: 61px;
+    gap: 27px 24px;
   }
 
   .yoga-classes-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .yoga-classes-item-fullwidth {
@@ -157,22 +151,22 @@
     background-color: #f2fafa;
   }
 
-  .yoga-classes-box-text {
-    max-width: 768px;
-    margin-bottom: 40px;
-  }
-
   .yoga-classes-title-text {
     margin-bottom: 16px;
   }
 
   .yoga-classes-title {
     font-size: 52px;
+    max-width: 768px;
+    margin: 0 auto;
     margin-bottom: 24px;
   }
 
   .yoga-classes-text {
     font-size: 18px;
+    max-width: 768px;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
 
   .yoga-classes-list {
@@ -182,7 +176,7 @@
   }
 
   .yoga-classes-item {
-    width: 421px;
+    width: calc((100% - 24px) / 3);
   }
 
   .yoga-classes-images {
@@ -199,7 +193,7 @@
   }
 
   .yoga-classes-button {
-    width: 112px;
+    min-width: 113px;
   }
 
   .yoga-classes-button-hiden-text {
