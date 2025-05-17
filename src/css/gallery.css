@@ -1,6 +1,7 @@
 .gallery-section {
     background-color: #f2fafa;
-    padding: 64px 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 .gallery-title {   
 font-family: var(--second-font);
@@ -13,6 +14,7 @@ color: var(--text-color);
 margin-bottom: 20px;
 }
 .gallery-text {
+text-align: center;
 margin-bottom: 48px;
 }
 .gallery-list {
@@ -28,10 +30,10 @@ margin-bottom: 48px;
 
 @media screen and (min-width: 768px) {
 .gallery-title {
-    margin-bottom: 20px;
+margin-bottom: 24px;
 }
-.gallery-list {
-    margin-bottom: 80px;
+.gallery-text {
+margin-bottom: 80px;
 }
 }
 
