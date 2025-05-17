@@ -13,7 +13,7 @@
 }
 
 .section-pricing-title {
-    font-family: "Cabin", sans-serif;
+    font-family: var(--second-font);
     font-weight: 400;
     font-size: 40px;
     line-height: 1.2;
