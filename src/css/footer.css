@@ -20,16 +20,13 @@
     margin: 0 auto;
 }
 
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
     
 }
 
-.footer-logo-icon {
-    background-color: #08233e;
-}
+
 
 .footer-text {
     font-family: var(--font-family);
@@ -59,14 +56,9 @@
     line-height: 1.6;
 }
 
-.newsletter-input::placeholder {
+.footer-input::placeholder {
     color: rgba(13, 11, 10, 0.6);
 }
-
-/* .footer-input:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(13, 11, 10, 0.1);
-} */
 
 .footer-button {
     border: 1px solid rgba(255, 255, 255, 0);
@@ -82,21 +74,11 @@
     color: var(--text-color);
 }
 
-/* .footer-button:hover {
-    background-color: #08233e;
-    color: #fff;
-}
-.footer-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(13, 11, 10, 0.1);
-} */
-
 .footer-form-text {
     font-weight: 400;
     font-size: 12px;
     color: var(--text-color);
     line-height: 1.6;
-
 }
 
 .footer-content {
@@ -110,7 +92,6 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-
 }
 
 .footer-title {
@@ -135,10 +116,6 @@
 
 }
 
-/* .footer-item:hover, .footer-social-item:hover {
-    color: #08233e;
-} */
-
 .footer-social-link {
     display: flex;
     align-items: center;
@@ -146,18 +123,6 @@
 
 .footer-social-link svg {
     margin-right: 12px;
-    fill: #757575;
-}
-
-.footer-social-link:hover {
-    color: #a28140;
-}
-
-.footer-social-link:hover svg {
-    fill: #a28140;
-}
-.footer-bottom {
-
 }
 
 .copyright {
@@ -172,12 +137,12 @@
 
     .footer {
     padding: 40px 32px;
-}
+    }
 
 .footer-container {
     padding: 40px 32px;
     gap: 40px;
-}
+    }
 
 .footer-top {
     max-width: 640px;
@@ -185,37 +150,67 @@
 
     .footer-logo {
     margin-bottom: 24px;
-}
+    }
 
 .footer-text {
     margin-bottom: 24px;
-}
+    }
 
 .footer-form {
     flex-direction: row;
-}
+    }
 
 .footer-input {
     max-width: 546px;
     flex-grow: 1;
-}
+    height: 46px;
+    }
 
 .footer-button {
     max-width: 78px;
-}
+    }
 
 .footer-content {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
     width: 100%; 
-}
+    }
 .footer-links, .footer-connect {
     width: calc(50% - 20px);
-}
+    }
 
 }
 
 @media only screen and (min-width: 1336px) {
 
+    .footer {
+        padding: 64px;
+    }
+
+    .footer-container {
+        padding: 48px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        row-gap: 24px;
+        align-items: flex-start;
+justify-content: space-between;
+    }
+
+    .footer-top {
+        max-width: 595px;
+        margin: 0;
+    }
+
+    .footer-content {
+        max-width: 371px;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+
 }
+
+
