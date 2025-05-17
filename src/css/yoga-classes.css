@@ -86,10 +86,6 @@
     background-color: #f2fafa;
   }
 
-  .yoga-classes-title-text {
-    margin-bottom: 16px;
-  }
-
   .yoga-classes-title {
     margin-bottom: 24px;
   }
@@ -129,7 +125,7 @@
   }
 
   .yoga-classes-button {
-    width: 112px;
+    max-width: 113px;
   }
 
   .yoga-classes-button-hiden-text {
@@ -149,10 +145,6 @@
     background-color: #f2fafa;
   }
 
-  .yoga-classes-title-text {
-    margin-bottom: 16px;
-  }
-
   .yoga-classes-title {
     font-size: 52px;
     max-width: 768px;
@@ -169,7 +161,6 @@
 
   .yoga-classes-list {
     flex-wrap: nowrap;
-    gap: 24px;
     margin-bottom: 40px;
   }
 
@@ -184,17 +175,5 @@
   .yoga-classes-images-title {
     font-size: 36px;
     margin-bottom: 24px;
-  }
-
-  .yoga-classes-images-title-hiden {
-    display: none;
-  }
-
-  .yoga-classes-button {
-    min-width: 113px;
-  }
-
-  .yoga-classes-button-hiden-text {
-    display: inline;
   }
 }
