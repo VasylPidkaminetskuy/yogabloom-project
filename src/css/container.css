@@ -9,12 +9,9 @@
   --text-font: 'Roboto', sans-serif;
 }
 
-.testi-padding {
-  padding-top: 112px;
-}
 
 .testi-heading {
-  margin-bottom: 32px;
+  margin: 64px 32px 24px;
   text-align: center;
 }
 
