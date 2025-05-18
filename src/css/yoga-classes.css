@@ -103,7 +103,7 @@
   }
 
   .yoga-classes-list {
-    margin-bottom: 61px;
+    margin-bottom: 40px;
     gap: 27px 24px;
   }
 
@@ -165,12 +165,11 @@
   }
 
   .yoga-classes-list {
-    flex-wrap: nowrap;
     margin-bottom: 40px;
   }
 
   .yoga-classes-item {
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 24px * 2) / 3);
   }
 
   .yoga-classes-images {
