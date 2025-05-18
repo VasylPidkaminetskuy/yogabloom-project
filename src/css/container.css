@@ -129,7 +129,7 @@
     border-radius: 24px;
     padding: 12px;
     background: var(--footer-bg-color);
-    
+    flex-grow: 1;
   }
 
   .testi-monials {
@@ -150,9 +150,21 @@
   .testi-section-sophie,
   .testi-section-rachel,
   .testi-section-emma {
-    width: 100%;
-    background: #dfebeb;
-    height: 100%;
-    gap: 24px;
+  
+    display: flex;
+      flex-direction: column;
+      background: #dfebeb;
+      min-height: 100%;
+      padding: 0;
   }
+.testi-item {
+  margin-top: auto;
+    padding: 0 172px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
 }
