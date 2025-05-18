@@ -42,6 +42,10 @@
     background-color: #dfebeb;
 }
 
+.tablet {
+    display: none;
+}
+
 .pricing-item-title {
     font-family: var(--second-font);
     font-weight: 400;
@@ -113,10 +117,42 @@
         padding: 16px;
     }
 
+    .mobile-desk {
+        display: none;
+    }
+
+    .tablet {
+        display: flex;
+    } 
+
     .section-pricing-list .section-pricing-item:last-child {
         flex-grow: 1;        
         padding: 86px 16px;
-
+        justify-content: space-between;
+        
 
     }
+
+    .pricing-item-container {
+        width: calc((100% - 32px) / 2);
+        margin: 0
+    }
+
+    .pricing-item-title {
+        font-size: 22px;
+    }
+
+    .pricing-item-text {
+        font-size: 72px;
+        margin-bottom: 34px;
+    }
+
+    .pricing-item-container .pricing-item-title {
+        margin-bottom: 24px;
+    }
+
+    .pricing-item-container .pricing-item-text {
+        margin-bottom: 24px;
+    }
+
 }
