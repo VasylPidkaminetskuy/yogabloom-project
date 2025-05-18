@@ -2,13 +2,9 @@
   --text-color: #0d0b0a;
   --bg-color: #f8fbfe;
   --footer-bg-color: #dfebeb;
-  --mobile-pricing-bg: #f8fbfe;
-
   --font-family: 'Sarabun', sans-serif;
   --second-font: 'Cabin', sans-serif;
-  --text-font: 'Roboto', sans-serif;
 }
-
 
 .testi-heading {
   margin: 64px 32px 24px;
@@ -23,7 +19,6 @@
   color: var(--text-color);
   margin-bottom: 12px;
   font-family: var(--second-font);
-  padding: 64px 32px;
 }
 
 .testi-happy {
@@ -40,16 +35,17 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin: 24px 16px;
 }
 
 .testi-section-donna,
 .testi-section-sophie,
 .testi-section-rachel,
 .testi-section-emma {
-  background: #fff;
   border-radius: 12px;
-  padding: 24px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  background: #fff;
 }
 
 .testi-sens {
@@ -147,21 +143,17 @@
   .testi-section-sophie,
   .testi-section-rachel,
   .testi-section-emma {
-  
-    display: flex;
-      flex-direction: column;
-      background: #dfebeb;
-      min-height: 100%;
-      padding: 0;
-  }
-.testi-item {
-  margin-top: auto;
-    padding: 0 172px 12px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    background: #dfebeb;
+    min-height: 100%;
+    padding: 0;
+  }
+
+  .testi-item {
+    margin-top: auto;
+    padding: 0 172px 12px;
     width: 100%;
     box-sizing: border-box;
-}
+  }
 }
