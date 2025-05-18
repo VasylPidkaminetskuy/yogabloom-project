@@ -1,12 +1,8 @@
 /* section hero */
 
-
-.hero-image{
-    display: block;
-    max-width: 100%;
-    height: auto;
+.hero{
+    background-color: #f2fafa;
 }
-
 .hero-container{
     display: flex;
     flex-direction: column;
@@ -16,12 +12,11 @@
 }
 
 .hero-headline{
-    font-family: "Cabin", sans-serif;
+    font-family: var(--second-font);
     font-weight: 400;
     font-size: 44px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    color: #0d0b0a;
     max-width: 343px;
     padding: 0;
     margin-top:0;
@@ -34,12 +29,11 @@
 }
 .hero-text{
     font-weight: 400;
-    color: #0d0b0a;
     width: 100%;
 }
 .btn-hero-container{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .btn-hero{
     border: 1px solid #c2d9fc;
@@ -48,8 +42,6 @@ flex-direction: column;
     max-width: 329px;
     height: 46px;
     font-weight: 500;
-    
-    color: #0d0b0a;
     text-align: center;
     text-decoration: none;
     background: #c2d9fc;
