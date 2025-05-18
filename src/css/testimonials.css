@@ -23,10 +23,7 @@ body {
     padding: 0 16px;
 }
 
-
 .testi-heading {
-    list-style: none;
-    padding: 0;
     margin-bottom: 32px;
     text-align: center;
 }
@@ -40,8 +37,6 @@ body {
     margin-bottom: 12px;
     font-family: 'Cabin', sans-serif;
     padding: 64px 32px;
-      
-        height: auto;
 }
 
 .testi-happy {
@@ -72,12 +67,12 @@ body {
 
 .testi-sens {
     font-family: "Sarabun", sans-serif;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 1.6;
-        text-align: center;
-        color: #0d0b0a;
-        padding: 29.5px 12px 32px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    padding: 29.5px 12px 32px;
 }
 
 .testi-item {
@@ -85,8 +80,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    list-style: none;
-    padding: 32px 9.5px 0 9.5px;
+    padding: 32px 9.5px 0;
     margin: 9.5px;
 }
 
@@ -98,7 +92,7 @@ body {
 }
 
 .testi-icon {
-padding-bottom: 16px;
+    padding-bottom: 16px;
 }
 
 .testi-name p {
@@ -122,9 +116,6 @@ padding-bottom: 16px;
 
     .testi-monials {
         font-size: 44px;
-        padding: 64px 32px;
-       
-        height: auto;
     }
 
     .testi-happy {
@@ -132,10 +123,8 @@ padding-bottom: 16px;
     }
 
     .testi-section {
-        flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
-        justify-content: space-between;
     }
 
     .testi-section-donna,
@@ -144,10 +133,8 @@ padding-bottom: 16px;
     .testi-section-emma {
         flex: 1 1 calc(50% - 12px);
         border-radius: 24px;
-            padding: 12px;
-            width: auto;
-            height: auto;
-            background: #dfebeb;
+        padding: 12px;
+        background: #dfebeb;
     }
 }
 
@@ -155,16 +142,12 @@ padding-bottom: 16px;
 @media only screen and (min-width: 1336px) {
     .container {
         padding: 112px 64px;
-        max-width: 1440px;
-        height: auto;
     }
 
     .testi-sens {
         border-radius: 24px;
-            padding: 12px;
-            background: #dfebeb;
-            width: auto;
-                height: auto;
+        padding: 12px;
+        background: #dfebeb;
     }
 
     .testi-monials {
@@ -177,10 +160,10 @@ padding-bottom: 16px;
 
     .testi-section {
         display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, auto);
-            gap: 32px;
-        }
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 32px;
+    }
 
     .testi-section-donna,
     .testi-section-sophie,
