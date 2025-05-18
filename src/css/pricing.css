@@ -121,11 +121,9 @@
         display: none;
     }
 
-    .tablet {
-        display: flex;
-    } 
 
     .section-pricing-list .section-pricing-item:last-child {
+        display: flex;
         flex-grow: 1;        
         padding: 86px 16px;
         justify-content: space-between;
