@@ -195,7 +195,7 @@
     }
 
     .mobile-desk {
-        display: list-item;
+        display: flex;
     }
 
     .package-text-desk {
