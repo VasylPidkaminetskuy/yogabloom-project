@@ -125,6 +125,10 @@
             margin-bottom: 32px;
     }
 
+    .pricing-package-list.pricing-item-container {
+        margin-bottom: 0;
+    }
+
     .mobile-desk {
         display: none;
     }
