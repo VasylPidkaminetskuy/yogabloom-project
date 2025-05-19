@@ -1,0 +1,176 @@
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ====== Base: Mobile First (320–375px) ====== */
+body {
+    background-color: #f2fafa;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0d0b0a;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.testi-heading {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.testi-monials {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+    margin-bottom: 12px;
+    font-family: 'Cabin', sans-serif;
+    padding: 64px 32px;
+}
+
+.testi-happy {
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0d0b0a;
+    margin: 0;
+    text-align: center;
+}
+
+.testi-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testi-section-item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testi-sens {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+    padding: 29.5px 12px 32px;
+}
+
+.testi-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 32px 9.5px 0;
+    margin: 9.5px;
+}
+
+.testi-icon img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testi-icon {
+    padding-bottom: 16px;
+}
+
+.testi-name p {
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
+}
+
+.testi-work p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
+
+/* ====== Tablet: ≥768px ====== */
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+        max-width: 768px;
+    }
+
+    .testi-monials {
+        font-size: 44px;
+    }
+
+    .testi-happy {
+        font-size: 18px;
+    }
+
+    .testi-section {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .testi-section-item {
+        flex: 1 1 calc(50% - 12px);
+        border-radius: 24px;
+        padding: 12px;
+        background: #dfebeb;
+    }
+}
+
+/* ====== Desktop: ≥1336px ====== */
+@media only screen and (min-width: 1336px) {
+    .container {
+        max-width: 1336px;
+            padding: 112px 64px;
+    }
+
+    .testi-sens {
+        border-radius: 24px;
+        padding: 12px;
+        background: #dfebeb;
+    }
+
+    .testi-monials {
+        font-size: 52px;
+    }
+
+    .testi-happy {
+        font-size: 20px;
+    }
+
+    .testi-section {
+        display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+    }
+
+    .testi-section-item {
+        display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 24px;
+            border-radius: 24px;
+            background: #dfebeb;
+            box-sizing: border-box;
+        
+    }
+        .testi-item {
+            padding: 32px 0 0;
+            margin-top: auto;
+    }
+}
