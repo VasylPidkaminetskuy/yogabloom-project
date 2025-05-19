@@ -1,27 +1,4 @@
-ul,
-ol {
-    list-style-type: none;
-}
 
-a {
-    text-decoration: none;
-}
-
-/* ====== Base: Mobile First (320–375px) ====== */
-body {
-    background-color: #f2fafa;
-    font-family: 'Cabin', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #0d0b0a;
-}
-
-.container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
 
 .testi-heading {
     margin-bottom: 32px;
@@ -107,7 +84,6 @@ body {
 /* ====== Tablet: ≥768px ====== */
 @media only screen and (min-width: 768px) {
     .container {
-        padding: 0 32px;
         max-width: 768px;
     }
 
@@ -136,7 +112,6 @@ body {
 @media only screen and (min-width: 1336px) {
     .container {
         max-width: 1336px;
-            padding: 112px 64px;
     }
 
     .testi-sens {
