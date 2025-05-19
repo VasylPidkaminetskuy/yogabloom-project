@@ -1,5 +1,3 @@
-
-
 .section-pricing {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -64,7 +62,7 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     text-align: center;
-    
+
 }
 
 .pricing-item-container {
@@ -130,10 +128,10 @@
 
     .section-pricing-list .section-pricing-item:last-child {
         display: flex;
-        flex-grow: 1;        
+        flex-grow: 1;
         padding: 86px 16px;
         justify-content: space-between;
-        
+
 
     }
 
@@ -172,40 +170,42 @@
     }
 
     .section-pricing-text span {
-    
+
         margin-bottom: 40px;
     }
 
-        .section-pricing-item {
-            width: calc((100% - 24px * 2) / 3);
-            padding: 32px;
-            display: flex;
-            flex-direction: column;
-            gap: 32px;
-            
-        }
+    .section-pricing-item {
+        width: calc((100% - 24px * 2) / 3);
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
 
-        
-        .section-pricing-list .section-pricing-item:last-child {
-            display: none;
-        }
+    }
 
-        .mobile-desk {
-                display: list-item;
-            }
 
-        .package-text-desk {
-            display: none;
-        }
+    .section-pricing-list .section-pricing-item:last-child {
+        display: none;
+    }
 
-                .pricing-item-container {
-                    width: 100%;
-                    margin: 0 auto;
-                }
-         .pricing-item-title {
-             margin-bottom: 8px;
-         }
-        .pricing-item-text {
-            margin-bottom: 32px;
-        }
+    .mobile-desk {
+        display: list-item;
+    }
+
+    .package-text-desk {
+        display: none;
+    }
+
+    .pricing-item-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pricing-item-title {
+        margin-bottom: 8px;
+    }
+
+    .pricing-item-text {
+        margin-bottom: 32px;
+    }
 }
