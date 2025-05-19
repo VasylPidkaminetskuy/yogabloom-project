@@ -53,6 +53,9 @@
     background: rgba(13, 11, 10, 0.05);
 }
 
+.btn-hero-join .desk-btn-join{
+    display: none;
+}
 @media screen and (min-width:768px){
     .hero-container{
         max-width: 768px;
@@ -76,6 +79,9 @@
     }
     .btn-hero{
         font-size: 18px;
+    }
+    .btn-hero-join .desk-btn-join {
+        display: inline;   
     }
 }
 
