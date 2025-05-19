@@ -121,6 +121,10 @@
         padding: 16px;
     }
 
+    .pricing-item-container {
+            margin-bottom: 32px;
+    }
+
     .mobile-desk {
         display: none;
     }
@@ -130,14 +134,12 @@
         display: flex;
         flex-grow: 1;
         padding: 86px 16px;
-        justify-content: space-between;
-
-
+        justify-content: center;
+        gap: 32px;
     }
 
-    .pricing-item-container {
+    .tablet-item-container {
         width: calc((100% - 32px) / 2);
-        margin: 0 auto;
     }
 
     .pricing-item-title {
