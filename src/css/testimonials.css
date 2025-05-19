@@ -55,10 +55,7 @@ body {
     gap: 32px;
 }
 
-.testi-section-donna,
-.testi-section-sophie,
-.testi-section-rachel,
-.testi-section-emma {
+.testi-section-item {
     background: #fff;
     border-radius: 12px;
     padding: 24px;
@@ -127,10 +124,7 @@ body {
         gap: 24px;
     }
 
-    .testi-section-donna,
-    .testi-section-sophie,
-    .testi-section-rachel,
-    .testi-section-emma {
+    .testi-section-item {
         flex: 1 1 calc(50% - 12px);
         border-radius: 24px;
         padding: 12px;
@@ -141,7 +135,8 @@ body {
 /* ====== Desktop: ≥1336px ====== */
 @media only screen and (min-width: 1336px) {
     .container {
-        padding: 112px 64px;
+        max-width: 1336px;
+            padding: 112px 64px;
     }
 
     .testi-sens {
@@ -160,15 +155,22 @@ body {
 
     .testi-section {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 32px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
     }
 
-    .testi-section-donna,
-    .testi-section-sophie,
-    .testi-section-rachel,
-    .testi-section-emma {
-        width: 100%;
+    .testi-section-item {
+        display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 24px;
+            border-radius: 24px;
+            background: #dfebeb;
+            box-sizing: border-box;
+        
+    }
+        .testi-item {
+            padding: 32px 0 0;
+            margin-top: auto;
     }
 }
