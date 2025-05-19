@@ -1,0 +1,179 @@
+.yoga-helps {
+    padding: 64px 0;
+    background-color: #DFEBEB;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-helps {
+        padding: 40px 0;
+        background-color: #F2FAFA;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+    .yoga-helps{
+        padding: 112px 0;
+    }
+}
+
+.yoga-title {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-title {
+        margin-bottom: 24px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+    .yoga-title{
+        font-size: 52px;
+    }
+}
+
+.yoga-subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-subtitle {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
+.yoga-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 46.5px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+    .yoga-list {
+        flex-wrap: nowrap;
+    }
+}
+
+.yoga-item {
+    flex-basis: calc((100% - 144px) / 4);
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+   .yoga-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+    .yoga-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+}
+
+.yoga-item-title {
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-item-title{
+        margin-bottom: 0%;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1336px) {
+    .yoga-item-title {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+}
+
+.yoga-item-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+}
+
+.yoga-button {
+    display: block;
+    width: 100%;
+    max-width: 343px;
+    height: 46px;
+    padding: 10px 0px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    text-decoration: none;
+    color: #0D0B0A;
+
+    background-color: #C2D9FC;
+    border: 1px solid #C2D9FC;
+    border-radius: 100px;
+
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
+}
+
+.yoga-button:hover,
+.yoga-button:focus {
+    background-color: #b6d8f5;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .yoga-button {
+      max-width: 110px;
+    }
+}
+
+.text-now {
+    display: none;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .text-now{
+        display: inline;
+    }
+}
+
