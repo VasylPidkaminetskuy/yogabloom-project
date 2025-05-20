@@ -1,10 +1,4 @@
 
-.container {
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
 
 .header-container {
     display: flex;
@@ -95,10 +89,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
+    
 
     .header-container {
         height: 72px;
@@ -123,10 +114,7 @@
     }
 }
 @media only screen and (min-width: 1336px) {
-    .container {
-        max-width: 1336px;
-        padding: 0 12px;
-    }
+  
 
     .brg-button-wrapper {
         display: none;
@@ -305,10 +293,7 @@
 }
 
 @media only screen and (min-width: 1336px) {
-    .container {
-        max-width: 1336px;
-        padding: 0 12px;
-    }
+  
 
     .mobile-menu {
         display: none;
