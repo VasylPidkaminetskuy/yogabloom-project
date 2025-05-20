@@ -3,6 +3,7 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 .gallery-title {   
 font-family: var(--second-font);
 font-weight: 400;
@@ -25,8 +26,12 @@ margin-bottom: 48px;
     gap: 24px;
 }
 .gallery-card {
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
 }
+.gallery-picture {
+    border-radius: 16px;
+}
+ 
 
 @media screen and (min-width: 768px) {
 .gallery-title {
