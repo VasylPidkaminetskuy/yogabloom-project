@@ -10,9 +10,8 @@
     gap: 48px;
     border: 0px solid rgba(13, 11, 10, 0.15);
     border-radius: 16px;
-    /* background-color:  #f8fbfe; */
+    background-color:  #f8fbfe;
     padding: 32px;
-    background-color: var(--bg-color);
 }
 
 .footer-top {
@@ -22,6 +21,8 @@
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
+    width: 84px;
+    height: 36px;
     
 }
 
@@ -141,6 +142,7 @@
 .footer-container {
     padding: 40px 32px;
     gap: 40px;
+    max-width: 704px;
     }
 
 .footer-top {
@@ -177,7 +179,10 @@
     }
 .footer-links, .footer-connect {
     width: calc(50% - 20px);
+    gap: 16px;
     }
+
+    
 
 }
 
@@ -192,14 +197,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 0;
-        row-gap: 24px;
         align-items: flex-start;
-justify-content: space-between;
+        justify-content: space-between;
+        max-width: 1312px;
     }
 
     .footer-top {
         max-width: 595px;
         margin: 0;
+        margin-bottom: 24px;
     }
 
     .footer-content {
