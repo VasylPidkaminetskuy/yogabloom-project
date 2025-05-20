@@ -1,5 +1,7 @@
 .testimonial-section {
     padding: 64px 0;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .testimonial-container {
@@ -90,6 +92,8 @@
     }*/
     .testimonial-section {
         padding: 40px 0;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .testimonial-title {
@@ -128,6 +132,8 @@
     }*/
     .testimonial-section {
         padding: 112px 0;
+        padding-left: 64px;
+        padding-right: 64px;
     }
 
     .testimonial-title {
