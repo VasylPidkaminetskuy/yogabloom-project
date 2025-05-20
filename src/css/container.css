@@ -1,159 +1,24 @@
-:root {
-  --text-color: #0d0b0a;
-  --bg-color: #f8fbfe;
-  --footer-bg-color: #dfebeb;
-  --font-family: 'Sarabun', sans-serif;
-  --second-font: 'Cabin', sans-serif;
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
-.testi-heading {
-  margin: 64px 32px 24px;
-  text-align: center;
-}
-
-.testi-monials {
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
-  color: var(--text-color);
-  margin-bottom: 12px;
-  font-family: var(--second-font);
-}
-
-.testi-happy {
-  font-size: 16px;
-  font-family: var(--font-family);
-  font-weight: 400;
-  line-height: 1.6;
-  color: var(--text-color);
-  margin: 0;
-  text-align: center;
-}
-
-.testi-section {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin: 24px 16px;
-}
-
-.testi-section-donna,
-.testi-section-sophie,
-.testi-section-rachel,
-.testi-section-emma {
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  padding: 24px;
-  background: #fff;
-}
-
-.testi-sens {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 1.6;
-  text-align: center;
-  color: var(--text-color);
-  padding: 29.5px 12px 32px;
-}
-
-.testi-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 32px 9.5px 0;
-  margin: 9.5px;
-}
-
-.testi-icon img {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.testi-icon {
-  padding-bottom: 16px;
-}
-
-.testi-name p {
-  font-weight: 600;
-  margin: 0;
-  font-size: 14px;
-}
-
-.testi-work p {
-  font-size: 12px;
-  color: #888;
-  margin: 0;
-}
-
-/* Tablet */
+/* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .testi-monials {
-    font-size: 44px;
-  }
-
-  .testi-happy {
-    font-size: 18px;
-  }
-
-  .testi-section {
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  .testi-section-donna,
-  .testi-section-sophie,
-  .testi-section-rachel,
-  .testi-section-emma {
-    flex: 1 1 calc(50% - 12px);
-    border-radius: 24px;
-    padding: 12px;
-    background: var(--footer-bg-color);
+  .container {
+    padding: 0 32px;
+    max-width: 768px;
   }
 }
 
-/* Desktop */
+/* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
-  .testi-sens {
-    border-radius: 24px;
-    padding: 12px;
-    background: var(--footer-bg-color);
-    flex-grow: 1;
+  .container {
+    padding: 0 64px;
+    max-width: 1440px;
   }
 
-  .testi-monials {
-    font-size: 52px;
-  }
-
-  .testi-happy {
-    font-size: 20px;
-  }
-
-  .testi-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-  }
-
-  .testi-section-donna,
-  .testi-section-sophie,
-  .testi-section-rachel,
-  .testi-section-emma {
-    display: flex;
-    flex-direction: column;
-    background: #dfebeb;
-    min-height: 100%;
-    padding: 0;
-  }
-
-  .testi-item {
-    margin-top: auto;
-    padding: 0 172px 12px;
-    width: 100%;
-    box-sizing: border-box;
-  }
+  
 }
