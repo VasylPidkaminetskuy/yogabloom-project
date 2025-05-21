@@ -1,7 +1,5 @@
 .testimonial-section {
-    padding: 64px 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 64px 16px;
 }
 
 .testimonial-container {
@@ -96,9 +94,7 @@
       max-width: 768px;
     }*/
     .testimonial-section {
-        padding: 40px 0;
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 40px 32px;
     }
 
     .testimonial-title {
@@ -136,9 +132,7 @@
       max-width: 1336px;
     }*/
     .testimonial-section {
-        padding: 112px 0;
-        padding-left: 64px;
-        padding-right: 64px;
+        padding: 112px 64px;
     }
 
     .testimonial-title {
