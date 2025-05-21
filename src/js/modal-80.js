@@ -1,16 +1,8 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector("[data-menu3-open]"),
-    closeModalBtn: document.querySelector("[data-menu3-close]"),
-    modal: document.querySelector("[data-menu3]"),
-  };
+import { setupModal } from '../main.js';
 
-  refs.openModalBtn.addEventListener("click", toggleModal);
-  refs.closeModalBtn.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle("is-open");
-  }
-
-  setupModalLinkClose(refs.modal);
-})();
+setupModal({
+  openSelector: "[data-menu2-open]",
+  closeSelector: "[data-menu2-close]",
+  modalSelector: "[data-menu2]",
+  closeOnLink: true,
+});
