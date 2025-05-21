@@ -93,9 +93,6 @@
         flex-direction: row;
         gap: 24px;
     }
-    .hero-image {
-        
-    }
     .hero-headline{
         max-width: 644px;
         font-size: 72px;
