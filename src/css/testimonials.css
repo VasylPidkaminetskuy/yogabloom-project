@@ -19,6 +19,7 @@
     font-size: 52px;
     line-height: 1.2;
     letter-spacing: 0.01em;
+    font-weight: 400;
 }
 
 .testimonial-description {
@@ -65,6 +66,9 @@
 .avatar-name {
     font-weight: 700;
     text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Sarabun", sans-serif;
 }
 
 .avatar-status {
@@ -72,6 +76,7 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    font-weight: 400;
 }
 
 .testimonial-card:nth-child(4) .quote {
