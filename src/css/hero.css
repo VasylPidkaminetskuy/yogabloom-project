@@ -1,6 +1,7 @@
 /* section hero */
-.hero-image{
-    margin: 0 auto;
+
+.hero-image {
+    margin: 0 -16px;
 }
 .hero-container{
     display: flex;
@@ -24,7 +25,7 @@
 .hero-info-container{
     display: flex;
     flex-direction: column;
-    width: 343px;
+    max-width: 343px;
     gap: 24px;
 }
 .hero-text{
@@ -63,11 +64,14 @@
         padding-bottom: 24px;
         gap: 8px;
     }
+    .hero-image {
+        margin: 0 -32px;   
+    }
     .hero-headline{
         max-width: 425px;
     }
     .hero-info-container{
-        width: 641px;
+        max-width: 641px;
         gap: 32px;
     }
     .hero-text{
@@ -92,6 +96,9 @@
         padding-bottom: 80px;
         flex-direction: row;
         gap: 24px;
+    }
+    .hero-image {
+        margin: 0 -64px;
     }
     .hero-headline{
         max-width: 644px;
