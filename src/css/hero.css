@@ -1,8 +1,6 @@
 /* section hero */
 
-.hero-image {
-   
-}
+
 .hero-container{
     display: flex;
     flex-direction: column;
@@ -64,9 +62,7 @@
         padding-bottom: 24px;
         gap: 8px;
     }
-    .hero-image {
-           
-    }
+
     .hero-headline{
         max-width: 425px;
     }
