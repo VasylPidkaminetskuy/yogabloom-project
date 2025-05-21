@@ -1,7 +1,7 @@
 /* section hero */
 
 .hero-image {
-    margin: 0 -16px;
+   
 }
 .hero-container{
     display: flex;
@@ -65,7 +65,7 @@
         gap: 8px;
     }
     .hero-image {
-        margin: 0 -32px;   
+           
     }
     .hero-headline{
         max-width: 425px;
@@ -98,7 +98,7 @@
         gap: 24px;
     }
     .hero-image {
-        margin: 0 -64px;
+        
     }
     .hero-headline{
         max-width: 644px;
