@@ -111,7 +111,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.6;
-    color: var(--text-color);
     padding: 8px 0px;
 
 }
@@ -216,6 +215,70 @@
         width: 100%;
     }
 
+}
+
+
+
+/* Footer Effects & Animations */
+
+
+/* BUTTON */
+.footer-button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #005f56;
+    transform: scale(1.05);
+    color: #f8fbfe;
+    outline: none;
+}
+
+/* INPUT */
+.footer-input {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-input:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 8px rgba(0, 121, 107, 0.3);
+    outline: none;
+}
+
+/* LINK */
+.footer-link,
+.footer-social-link {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-social-link:hover,
+.footer-social-link:focus {
+    color: #00796b;
+    transform: translateY(-2px);
+    outline: none;
+}
+
+/* SVG */
+.footer-social-link svg {
+    transition: fill 0.3s ease;
+}
+
+.footer-social-link:hover svg,
+.footer-social-link:focus svg {
+    fill: #00796b;
+    outline: none;
+}
+
+/*  focus-visible */
+.footer-input:focus-visible,
+.footer-button:focus-visible,
+.footer-link:focus-visible,
+.footer-social-link:focus-visible {
+    outline: 2px dashed #00796b;
+    outline-offset: 4px;
 }
 
 
