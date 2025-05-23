@@ -1,16 +1,11 @@
 .testimonial-section {
-    padding: 64px 16px;
+    padding-top: 64px ;
+    padding-bottom: 64px;
 }
 
-.testimonial-container {
-    /* margin: 0 auto;
-    padding: 0 16px;
-    min-width: 320px;
-    max-width: 375px;*/
-    overflow-x: hidden;
-}
 
 .testimonial-title {
+    max-width: 100%;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Cabin', sans-serif;
