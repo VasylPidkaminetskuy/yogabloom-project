@@ -1,33 +1,26 @@
 
-setupModal({
-  openSelector: "[data-menu-open-header]",
-  closeSelector: "[data-menu-close-header]",
-  modalSelector: "[data-menu]",
-  closeOnLink: true,
-});
+(() => {
+  const refs = {
+    openMenuBtn: document.querySelector('[data-menu-open-header]'),
+    closeMenuBtn: document.querySelector('[data-menu-close-header]'),
+    menu: document.querySelector('[data-menu]'),
+  };
 
-// export function setupModal({ openSelector, closeSelector, modalSelector, closeOnLink = false }) {
-//   const refs = {
-//     openModalBtn: document.querySelector(openSelector),
-//     closeModalBtn: document.querySelector(closeSelector),
-//     modal: document.querySelector(modalSelector),
-//   };
+  if (!refs.openMenuBtn || !refs.closeMenuBtn || !refs.menu) return;
 
-//   if (!refs.openModalBtn || !refs.closeModalBtn || !refs.modal) return;
+  refs.openMenuBtn.addEventListener('click', toggleMenu);
+  refs.closeMenuBtn.addEventListener('click', toggleMenu);
 
-//   const toggleModal = () => {
-//     refs.modal.classList.toggle("is-open");
-//   };
+  function toggleMenu() {
+    refs.menu.classList.toggle('is-open');
+  }
 
-//   refs.openModalBtn.addEventListener("click", toggleModal);
-//   refs.closeModalBtn.addEventListener("click", toggleModal);
+  // Закрытие при клике на якорную ссылку внутри мобильного меню
+  const menuLinks = refs.menu.querySelectorAll('a[href^="#"]');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      refs.menu.classList.remove('is-open');
+    });
+  });
+})();
 
-//   if (closeOnLink) {
-//     const menuLinks = refs.modal.querySelectorAll("a[href^='#']");
-//     menuLinks.forEach(link => {
-//       link.addEventListener("click", () => {
-//         refs.modal.classList.remove("is-open");
-//       });
-//     });
-//   }
-// }
