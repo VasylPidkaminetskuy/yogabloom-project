@@ -1,16 +1,11 @@
-/* section hero */
 .hero-image{
     margin: 0 auto
-}
-.container{
-    padding-top: 48px;
-    padding-bottom: 48px;
 }
 .hero-container{
     display: flex;
     flex-direction: column;
     max-width: 375px;
-    
+    padding: 48px 0;
     gap: 20px;
 }
 
@@ -60,12 +55,10 @@
     display: none;
 }
 @media screen and (min-width:768px){
-    .container{
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
+    
     .hero-container{
         max-width: 768px;
+        padding: 24px 0;
         gap: 8px;
     }
     .hero-headline{
@@ -91,13 +84,11 @@
 }
 
 @media screen and (min-width: 1336px){
-    .contsiner{
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+    
     .hero-container {
         max-width: 1440px;
         flex-direction: row;
+        padding: 80px 0;
         gap: 24px;
     }
    
