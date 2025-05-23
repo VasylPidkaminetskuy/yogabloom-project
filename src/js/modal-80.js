@@ -1,3 +1,4 @@
+
 //modal80
 (() => {
     const refs = {
@@ -5,6 +6,7 @@
       closeModalBtn: document.querySelector("[data-modal-close-3]"),
       modal: document.querySelector("[data-modal-3]"),
     };
+
 
     refs.openModalBtn.addEventListener("click", toggleModal);
     refs.closeModalBtn.addEventListener("click", toggleModal);
