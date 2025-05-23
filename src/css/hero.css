@@ -8,10 +8,6 @@
 .hero-image{
     margin: 0 auto
 }
-.container{
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
 
 .hero-container{
     display: flex;
