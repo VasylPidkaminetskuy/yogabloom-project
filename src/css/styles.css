@@ -1,4 +1,3 @@
-
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -15,3 +14,6 @@
 @import url('./testimonials.css');
 @import url('./pricing.css');
 @import url('./footer.css');
+@import url('./small-package.css');
+@import url('./average-package.css');
+@import url('./big-package.css');

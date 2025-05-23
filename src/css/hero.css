@@ -1,6 +1,18 @@
+
 .hero-image{
     margin: 0 auto
 }
+
+/* section hero */
+
+.hero-image{
+    margin: 0 auto
+}
+.container{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
 .hero-container{
     display: flex;
     flex-direction: column;
@@ -60,7 +72,7 @@
         max-width: 768px;
         padding: 24px 0;
         gap: 8px;
-    }
+  }
     .hero-headline{
         max-width: 425px;
     }
@@ -91,7 +103,7 @@
         padding: 80px 0;
         gap: 24px;
     }
-   
+
     .hero-headline{
         max-width: 644px;
         font-size: 72px;

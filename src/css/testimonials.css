@@ -1,0 +1,144 @@
+.testimonial-section {
+    padding-top: 64px ;
+    padding-bottom: 64px;
+}
+
+
+.testimonial-title {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
+.testimonial-description {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.testimonials {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonial-card {
+    border-radius: 24px;
+    padding: 12px;
+    background-color: #dfebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.avatar-wrapper {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin: 0 auto 16px auto;
+    border-radius: 100%;
+    display: block;
+}
+
+.avatar-name {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Sarabun", sans-serif;
+}
+
+.avatar-status {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+
+.testimonial-card:nth-child(4) .quote {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stress-phrase {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+    /*.testimonial-container {
+      padding: 0 32px;
+      max-width: 768px;
+    }*/
+    .testimonial-section {
+        padding: 40px 32px;
+    }
+
+    .testimonial-title {
+        margin-bottom: 24px;
+        font-size: 40px;
+    }
+
+    /* .testimonial-card {
+        min-height: 356px;
+    } */
+
+    .testimonial-card:nth-child(1) {
+        padding: 29.5px 12px;
+        height: 356px;
+    }
+
+    .testimonial-card:nth-child(3),
+    .testimonial-card:nth-child(4) {
+        min-height: 321px;
+    }
+
+    .quote {
+        flex-grow: 1;
+    }
+
+    .avatar {
+        margin-top: auto;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+
+    /*.testimonial-container {
+      padding: 12px;
+      max-width: 1336px;
+    }*/
+    .testimonial-section {
+        padding: 112px 64px;
+    }
+
+    .testimonial-title {
+        font-size: 52px;
+    }
+
+    .testimonial-card {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .testimonial-card:nth-child(1) {
+        padding: 12px;
+        height: auto;
+    } }
