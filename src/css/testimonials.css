@@ -12,7 +12,7 @@
 
 .testimonial-title {
     text-align: center;
-    margin: 0 auto 20px auto;
+    margin-bottom: 20px;
     font-family: 'Cabin', sans-serif;
     font-size: 52px;
     line-height: 1.2;
@@ -102,9 +102,9 @@
         font-size: 40px;
     }
 
-    .testimonial-card {
+    /* .testimonial-card {
         min-height: 356px;
-    }
+    } */
 
     .testimonial-card:nth-child(1) {
         padding: 29.5px 12px;

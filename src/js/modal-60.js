@@ -1,4 +1,3 @@
-import { setupModal } from '../main.js';
 
 setupModal({
   openSelector: "[data-menu1-open]",
