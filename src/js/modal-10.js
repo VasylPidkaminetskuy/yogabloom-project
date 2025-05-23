@@ -1,17 +1,17 @@
 
 (() => {
-    const refs = {
-      openModalBtn: document.querySelector("[data-modal-open-1]"),
-      closeModalBtn: document.querySelector("[data-modal-close-1]"),
-      modal: document.querySelector("[data-modal-1]"),
-    };
+  const refs = {
+    openMenuBtn: document.querySelector('[data-modal-open-1]'),
+    closeMenuBtn: document.querySelector('[data-modal-close-1]'),
+    menu: document.querySelector('[data-modal]'),
+  };
 
+  if (!refs.openMenuBtn || !refs.closeMenuBtn || !refs.menu) return;
 
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+  refs.openMenuBtn.addEventListener('click', toggleMenu);
+  refs.closeMenuBtn.addEventListener('click', toggleMenu);
 
-    function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
-      document.body.classList.toggle("no-scroll");
+  function toggleMenu() {
+    refs.menu.classList.toggle('is-open');
     }
   })();

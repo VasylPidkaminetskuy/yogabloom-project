@@ -1,18 +1,16 @@
-
-//modal80
 (() => {
-    const refs = {
-      openModalBtn: document.querySelector("[data-modal-open-3]"),
-      closeModalBtn: document.querySelector("[data-modal-close-3]"),
-      modal: document.querySelector("[data-modal-3]"),
-    };
+  const refs = {
+    openMenuBtns: document.querySelectorAll('[data-modal-open-3]'),
+    closeMenuBtns: document.querySelectorAll('[data-modal-close-3]'),
+    menu: document.querySelector('[data-modal-3]'),
+  };
 
+  if (!refs.openMenuBtns.length || !refs.closeMenuBtns.length || !refs.menu) return;
 
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+  refs.openMenuBtns.forEach(btn => btn.addEventListener('click', toggleMenu));
+  refs.closeMenuBtns.forEach(btn => btn.addEventListener('click', toggleMenu));
 
-    function toggleModal() {
-      refs.modal.classList.toggle("is-hidden");
-      document.body.classList.toggle("no-scroll");
-    }
-  })();
+  function toggleMenu() {
+    refs.menu.classList.toggle('is-open');
+  }
+})();
