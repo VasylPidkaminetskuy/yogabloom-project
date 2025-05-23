@@ -1,4 +1,5 @@
 /* section hero */
+
 .hero-image{
     margin: 0 auto
 }
@@ -6,6 +7,7 @@
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
 .hero-container{
     display: flex;
     flex-direction: column;
@@ -67,7 +69,7 @@
     .hero-container{
         max-width: 768px;
         gap: 8px;
-    }
+  }
     .hero-headline{
         max-width: 425px;
     }
@@ -100,7 +102,7 @@
         flex-direction: row;
         gap: 24px;
     }
-   
+
     .hero-headline{
         max-width: 644px;
         font-size: 72px;
