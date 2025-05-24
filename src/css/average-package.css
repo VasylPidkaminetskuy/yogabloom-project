@@ -74,19 +74,17 @@
   margin-bottom: 32px;
 }
 
+/* 
 .join-form-label {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
+  margin-bottom: 8px; - не працює, тому зробив нижче падінг
+} */
 
 .input-wrap {
+  padding-top: 8px;
   margin-bottom: 24px;
 }
 
 .input-cont {
-  font-size: 16px;
-  line-height: 1.6;
   color: rgba(13, 11, 10, 0.6);
   width: 100%;
   width: 343px;
@@ -96,14 +94,20 @@
   background-color: rgba(13, 11, 10, 0.05);
 }
 
+.input-cont:hover,
+.input-cont:focus {
+  background-color: #c2d9fc;
+  border-color: rgba(13, 11, 10, 0.05);
+  transition: background-color 0.3s ease, border 0.3s ease;
+  outline: none;
+}
+
 .join-form-label-cont {
   flex: 1 1 48%;
 }
 
 .join-btn {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
   border: 1px solid #c2d9fc;
   border-radius: 100px;
   padding: 10px 0px;
