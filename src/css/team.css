@@ -85,6 +85,10 @@
   justify-content: center;
 }
 
+.socials-link:hover {
+  transform: scale(1.5);
+}
+
 .icon {
   display: inline-block;
   width: 1em;
