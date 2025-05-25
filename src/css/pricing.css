@@ -91,7 +91,17 @@
     height: 46px;
     background-color: #c2d9fc;
     font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
+    
+.pricing-package-btn:hover,
+.pricing-package-btn:focus {
+    background-color: #005f56;
+    transform: scale(1.05);
+    color: #f8fbfe;
+    outline: none;
+ }
+
 
 @media only screen and (min-width: 768px) {
     .section-pricing {

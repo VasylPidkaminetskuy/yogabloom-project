@@ -71,6 +71,15 @@
   margin-right: auto;
   display: block;
   text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+.yoga-classes-button:hover,
+.yoga-classes-button:focus {
+    background-color: #005f56;
+    transform: scale(1.05);
+    color: #f8fbfe;
+    outline: none;
 }
 
 .yoga-classes-button-hiden-text {
