@@ -61,12 +61,15 @@ html {
     justify-content: center;
     text-decoration: none;
     white-space: nowrap;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.header-btn:hover {
-    background-color: rgba(13, 11, 10, 0.05);
-    border-color: rgba(13, 11, 10, 0.05);
-    transition: background-color 0.3s ease, border 0.3s ease;
+.header-btn:hover,
+.header-btn:focus {
+    background-color: #005f56;
+    transform: scale(1.05);
+    color: #f8fbfe;
+    outline: none;
 }
 
 .btn-text {
